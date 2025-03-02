@@ -50,7 +50,8 @@ int Role::getPriority()
 }
 
 
-class Queue {
+class Queue
+{
 private:
     int front, rear, size, maxSize;
     Role* queue;
